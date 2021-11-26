@@ -1,0 +1,62 @@
+.card{
+    margin-left: 3%;
+    text-align: center;
+    margin-top: 5%;
+}
+.card-img-top{
+    width:60%;
+    margin-left: 20%;
+    border-radius: 2.5%;
+    margin-top: 3%;
+}
+
+#about{
+    text-align: left;
+    margin-top: 5%;
+}
+#bg-img{
+
+width: 50%;
+padding-bottom: 200px;
+}
+.bg{
+    max-height: 200px;
+}
+#education{
+ text-align: left;
+
+ border:0;
+}
+#abt{
+   text-align: center;
+}
+.content1{
+    margin-top: 2%;
+    margin-left: 5%;
+   
+}
+.info{
+   width:80%;
+   
+}
+.projects{
+  text-align: center;
+  margin:5%;
+}
+.card-text{
+    text-align: left;
+}
+#ski{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.button-sec{
+    margin-top: 5rem;
+}
+.contact-section{
+    margin-top: 5%;
+    text-align: center;
+}
+.social-icon{
+    margin: 3% 2%;
+}
