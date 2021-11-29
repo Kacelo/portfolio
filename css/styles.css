@@ -36,7 +36,7 @@ padding-bottom: 200px;
    
 }
 .info{
-   width:80%;
+   width:90%;
    
 }
 .projects{
@@ -59,4 +59,8 @@ padding-bottom: 200px;
 }
 .social-icon{
     margin: 3% 2%;
+}
+
+.pjs{
+    margin-right: 10%;
 }
