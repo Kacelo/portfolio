@@ -1,0 +1,129 @@
+#equilibrium{
+    border-radius: 3%;
+    width:90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    height: auto;
+}
+body{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    }
+#nft{
+    margin-top: 5%;
+    /*margin-left: 35%;
+    margin-right: 10%;*/
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+    background-color: hsl(216, 50%, 16%);
+    width: 100%;
+}
+#creator{
+    width:10%;
+}
+.card-title{
+    color: white;
+}
+
+#time, hr, .card-text{
+    color: hsl(215, 51%, 70%);
+    
+}
+ #creator{
+    float: left;
+    margin-right: 1.5%;
+}
+.days{
+float:left;
+}
+
+.days{
+    float:right;
+    margin-right: 5%;
+}
+.avatar{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+#eth{
+    color: hsl(178, 100%, 50%);
+    float: left;
+    margin-right:45%;
+}
+#elem{
+    float: left;
+    margin-right: 2%;
+}
+
+#clock{
+    float: left;
+}
+#time{
+    float: right;
+    }
+.line{
+    border-style: none;
+	height: 0px;
+	width: 100%;
+	border-width: 5px;
+	border-top: none;
+}
+.hori{
+    margin: 0, 25%;
+}
+#equi:hover{
+    color:cyan;
+}
+
+/*Hover Effect on image*/
+
+.container {
+    position: relative;
+    
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(4, 219, 252, 0.5);
+    overflow: hidden;
+  
+    height: 96%;
+    transform: scale(0);
+    transition: .3s ease;
+    border-radius: 3%;
+    width:83.5%;
+    margin-left: 8%;
+    margin-top: 3%;
+  }
+
+  .container:hover .overlay {
+    transform: scale(1);
+    opacity: 1;
+  }
+  .image-over {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .flexbox{
+      display: flex;
+     
+     
+  }
+  .glow:hover, .glo{
+      color: cyan;
+  }
