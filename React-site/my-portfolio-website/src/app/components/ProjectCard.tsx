@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 interface ProjectCardProps {
@@ -17,7 +18,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-      <img src={image} alt={title} className="w-full h-48 object-cover" />
+      <Image width={500}
+              height={500} src={image} alt={title} className="w-full h-48 object-cover" />
       <div className="p-6">
         <h3 className="text-xl font-bold text-gray-900 mb-2">{title}</h3>
         <p className="text-gray-600 mb-4">{description}</p>

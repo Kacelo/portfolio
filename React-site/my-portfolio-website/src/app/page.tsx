@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, Linkedin, MessageSquare, Twitter } from "lucide-react";
+import { Github, Linkedin, MessageSquare } from "lucide-react";
 import ContactForm from "./components/ContactForm";
 import ProjectCard from "./components/ProjectCard";
 import Image from "next/image";
@@ -12,7 +12,7 @@ function Home() {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Hi, I'm <span className="text-blue-600">Vernon Kacelo</span>
+              Hi, I am <span className="text-blue-600">Vernon Kacelo</span>
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
               A passionate full-stack developer with 3 years of experience
@@ -97,15 +97,6 @@ function Home() {
                   <Linkedin className="w-6 h-6" />
                   <span>LinkedIn</span>
                 </a>
-                {/* <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-gray-700 hover:text-blue-600 transition-colors"
-                >
-                  <Twitter className="w-6 h-6" />
-                  <span>Twitter</span>
-                </a> */}
                 <a
                   href="https://wa.me/264814380939"
                   target="_blank"
