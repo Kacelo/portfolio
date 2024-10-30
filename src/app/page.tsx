@@ -23,7 +23,7 @@ function Home() {
           <div className="flex-1">
            
             <Image
-              src="/vernon-best-image.png"
+              src="/portfolio/vernon-best-image.png"
               width={500}
               height={500}
               alt="Picture of the author"
@@ -43,7 +43,7 @@ function Home() {
             <ProjectCard
               title="Shenatungo"
               description="A Salon Website built with NextJs and hosted on Vercel"
-              image="/shenatungo.png"
+              image="/portfolio/shenatungo.png"
               tags={["Next.js"]}
               link="https://shenatungo.com"
 
@@ -51,7 +51,7 @@ function Home() {
             <ProjectCard
               title="Shift-Finance"
               description="ShiftSpace Finance is a 100% Namibian corporation registered with the Business and Intellectual Property Authority (BIPA), Registration Number CC/2022/08696. ShiftSpace Financial Services CC is licensed and regulated by the Namibia Financial Institutions Supervisory Institution Authority (NAMFISA)."
-              image="/shift.png"
+              image="/portfolio/shift.png"
               tags={["React", "Tailwind"]}
               link="https://shiftfinance.m1.com.na"
 
@@ -59,7 +59,7 @@ function Home() {
             <ProjectCard
               title="Hovia Educational Consultants"
               description="Hovia is a consulting firm that focuses on training, management and career consulting services."
-              image="/Hovia.png"
+              image="/portfolio/Hovia.png"
               tags={["TypeScript"]}
               link="https://hoviaconsulting.com.na/"
             />
