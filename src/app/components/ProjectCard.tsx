@@ -35,6 +35,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </div>
         <div className="py-6">
           <a
+          id="visit"
             href={link}
             target="_blank"
             className="px-10 py-3 bg-blue-600 text-white-600 rounded-full text-sm"

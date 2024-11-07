@@ -3,12 +3,17 @@ import { Github, Linkedin, MessageSquare } from "lucide-react";
 import ContactForm from "./components/ContactForm";
 import ProjectCard from "./components/ProjectCard";
 import Image from "next/image";
+import VernonNavbar from "./components/Nav";
 
 function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
       {/* Hero Section */}
-      <section className="container mx-auto px-6 py-20">
+      <div className=" items-center gap-12" id="navbar">
+        
+        <VernonNavbar />
+      </div>
+      <section className="container mx-auto px-6 py-20" id="about">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
@@ -21,20 +26,19 @@ function Home() {
             </p>
           </div>
           <div className="flex-1">
-           
             <Image
-              src="/portfolio/vernon-best-image.png"
+              src="vernon-best-image.png"
               width={500}
               height={500}
               alt="Picture of the author"
-              style={imageStyle} 
+              style={imageStyle}
             />
           </div>
         </div>
       </section>
 
       {/* Projects Section */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-20" id="my-work">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
             My Work
@@ -43,23 +47,21 @@ function Home() {
             <ProjectCard
               title="Shenatungo"
               description="A Salon Website built with NextJs and hosted on Vercel"
-              image="/portfolio/shenatungo.png"
+              image="shenatungo.png"
               tags={["Next.js"]}
               link="https://shenatungo.com"
-
             />
             <ProjectCard
               title="Shift-Finance"
               description="ShiftSpace Finance is a 100% Namibian corporation registered with the Business and Intellectual Property Authority (BIPA), Registration Number CC/2022/08696. ShiftSpace Financial Services CC is licensed and regulated by the Namibia Financial Institutions Supervisory Institution Authority (NAMFISA)."
-              image="/portfolio/shift.png"
+              image="shift.png"
               tags={["React", "Tailwind"]}
               link="https://shiftfinance.m1.com.na"
-
             />
             <ProjectCard
               title="Hovia Educational Consultants"
               description="Hovia is a consulting firm that focuses on training, management and career consulting services."
-              image="/portfolio/Hovia.png"
+              image="Hovia.png"
               tags={["TypeScript"]}
               link="https://hoviaconsulting.com.na/"
             />
@@ -68,11 +70,11 @@ function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="container mx-auto px-6 py-20">
+      <section className="container mx-auto px-6 py-20" >
         <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
           Get in Touch
         </h2>
-        <div className="flex flex-col md:flex-row gap-12">
+        <div className="flex flex-col md:flex-row gap-12" >
           <div className="flex-1">
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">
@@ -109,7 +111,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="flex-1">
+          <div className="flex-1" id="contact">
             <ContactForm />
           </div>
         </div>
@@ -118,6 +120,6 @@ function Home() {
   );
 }
 const imageStyle = {
-  borderRadius: '3%',
-}
+  borderRadius: "3%",
+};
 export default Home;
