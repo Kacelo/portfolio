@@ -25,7 +25,7 @@ function VernonNavbar() {
         </NavigationMenuItem>
         <NavigationMenuItem>
         <a
-            href={"/VKaceloCV.pdf"}
+            href={"https://github.com/Kacelo/portfolio/blob/main/public/VKaceloCV.pdf"}
             id="resume"
             target="_blank"
             className="px-10 py-3 m: px-1 py-1 bg-blue-600 text-white rounded-full text-sm"
