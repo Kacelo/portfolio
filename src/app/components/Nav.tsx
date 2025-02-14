@@ -1,3 +1,4 @@
+import { ModeToggle } from "@/components/theme-provider/mode-toggle";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -33,6 +34,9 @@ function VernonNavbar() {
           >
             Download Resume
           </a>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+        <ModeToggle />
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>

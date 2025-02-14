@@ -8,7 +8,7 @@ import { ThreeDCard } from "./components/updated-project-cards";
 
 function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
+    <main className="">
       {/* Hero Section */}
       <div className=" items-center gap-12" id="navbar">
         
@@ -39,12 +39,12 @@ function Home() {
       </section>
 
       {/* Projects Section */}
-      <section className="bg-white py-20" id="my-work">
+      <section className="" id="my-work">
         <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
+          <h2 className="text-3xl md:text-5xl font-sans font-bold">
             My Work
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex items-center justify-center flex-col md:flex-row gap-8">
             <ThreeDCard
               title="Shenatungo"
               description="A Salon Website built with NextJs and hosted on Vercel"
@@ -118,7 +118,7 @@ function Home() {
           </div>
         </div>
       </section>
-    </div>
+    </main>
   );
 }
 const imageStyle = {
