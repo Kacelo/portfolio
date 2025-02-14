@@ -4,6 +4,7 @@ import ContactForm from "./components/ContactForm";
 import ProjectCard from "./components/ProjectCard";
 import Image from "next/image";
 import VernonNavbar from "./components/Nav";
+import { ThreeDCard } from "./components/updated-project-cards";
 
 function Home() {
   return (
@@ -27,7 +28,7 @@ function Home() {
           </div>
           <div className="flex-1">
             <Image
-              src="vernon-best-image.png"
+              src="best-image.jpeg"
               width={500}
               height={500}
               alt="Picture of the author"
@@ -44,27 +45,28 @@ function Home() {
             My Work
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <ProjectCard
+            <ThreeDCard
               title="Shenatungo"
               description="A Salon Website built with NextJs and hosted on Vercel"
               image="shenatungo.png"
               tags={["Next.js"]}
               link="https://shenatungo.com"
             />
-            <ProjectCard
+            <ThreeDCard
               title="Shift-Finance"
               description="ShiftSpace Finance is a 100% Namibian corporation registered with the Business and Intellectual Property Authority (BIPA), Registration Number CC/2022/08696. ShiftSpace Financial Services CC is licensed and regulated by the Namibia Financial Institutions Supervisory Institution Authority (NAMFISA)."
               image="shift.png"
               tags={["React", "Tailwind"]}
               link="https://shiftfinance.m1.com.na"
             />
-            <ProjectCard
+            <ThreeDCard
               title="Hovia Educational Consultants"
               description="Hovia is a consulting firm that focuses on training, management and career consulting services."
               image="Hovia.png"
               tags={["TypeScript"]}
               link="https://hoviaconsulting.com.na/"
             />
+            {/* <ThreeDCard imageDescription="Hovia is a consulting firm that focuses on training, management and career consulting services." imageTitle="Hovia Educational Consultants" imageUrl="Hovia.png" alt="image"/> */}
           </div>
         </div>
       </section>
