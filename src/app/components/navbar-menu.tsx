@@ -10,8 +10,6 @@ import {
 } from "@/components/ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import { ModeToggle } from "@/components/theme-provider/mode-toggle";
-import Link from "next/link";
-
 export function NavBar() {
   return (
     <div className="relative w-full flex items-center justify-center">
