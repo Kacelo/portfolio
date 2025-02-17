@@ -1,7 +1,6 @@
 import React from "react";
 import { Github, Linkedin, MessageSquare } from "lucide-react";
 import ContactForm from "./components/ContactForm";
-import ProjectCard from "./components/ProjectCard";
 import Image from "next/image";
 import VernonNavbar from "./components/Nav";
 import { ThreeDCard } from "./components/updated-project-cards";
