@@ -2,8 +2,8 @@ import React from "react";
 import { Github, Linkedin, MessageSquare } from "lucide-react";
 import ContactForm from "./components/ContactForm";
 import Image from "next/image";
-import VernonNavbar from "./components/Nav";
 import { ThreeDCard } from "./components/updated-project-cards";
+import { NavBar } from "./components/navbar-menu";
 
 function Home() {
   return (
@@ -11,15 +11,16 @@ function Home() {
       {/* Hero Section */}
       <div className=" items-center gap-12" id="navbar">
         
-        <VernonNavbar />
+        {/* <VernonNavbar /> */}
+        <NavBar />
       </div>
       <section className="container mx-auto px-6 py-20" id="about">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1">
-            <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Hi, I am <span className="text-blue-600">Vernon Kacelo</span>
+            <h1 className="text-5xl font-bold mb-6">
+              Hi, I am <span className="">Vernon Kacelo</span>
             </h1>
-            <p className="text-xl text-gray-600 leading-relaxed">
+            <p className="text-xl leading-relaxed">
               A passionate full-stack developer with 3 years of experience
               crafting beautiful and functional web applications. I specialize
               in React, Node.js, and cloud architecture.
@@ -72,13 +73,13 @@ function Home() {
 
       {/* Contact Section */}
       <section className="container mx-auto px-6 py-20" >
-        <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
+        <h2 className="text-4xl font-bold text-center  mb-12">
           Get in Touch
         </h2>
         <div className="flex flex-col md:flex-row gap-12" >
           <div className="flex-1">
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">
+              <h3 className="text-2xl font-semibold mb-6">
                 Connect With Me
               </h3>
               <div className="space-y-4">
@@ -86,7 +87,7 @@ function Home() {
                   href="https://github.com/Kacelo"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-gray-700 hover:text-blue-600 transition-colors"
+                  className="flex items-center gap-3 hover:text-blue-600 transition-colors"
                 >
                   <Github className="w-6 h-6" />
                   <span>GitHub</span>
@@ -95,7 +96,7 @@ function Home() {
                   href="https://www.linkedin.com/in/vernon-kacelo-68b5171b6/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BCVJvcQZTSwq%2B24QkOxpVeQ%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-gray-700 hover:text-blue-600 transition-colors"
+                  className="flex items-center gap-3 hover:text-blue-600 transition-colors"
                 >
                   <Linkedin className="w-6 h-6" />
                   <span>LinkedIn</span>
@@ -104,7 +105,7 @@ function Home() {
                   href="https://wa.me/264814380939"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-gray-700 hover:text-blue-600 transition-colors"
+                  className="flex items-center gap-3 hover:text-blue-600 transition-colors"
                 >
                   <MessageSquare className="w-6 h-6" />
                   <span>WhatsApp</span>

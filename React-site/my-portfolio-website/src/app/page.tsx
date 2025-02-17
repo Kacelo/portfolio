@@ -12,7 +12,7 @@ function Home() {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1">
             <h1 className="text-5xl font-bold text-gray-900 mb-6">
-              Hi, I am <span className="text-blue-600">Vernon Kacelo</span>
+              Hi, I am <span className="">Vernon Kacelo</span>
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
               A passionate full-stack developer with 3 years of experience
@@ -69,13 +69,13 @@ function Home() {
 
       {/* Contact Section */}
       <section className="container mx-auto px-6 py-20">
-        <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
+        <h2 className="text-4xl font-bold text-center mb-12">
           Get in Touch
         </h2>
         <div className="flex flex-col md:flex-row gap-12">
           <div className="flex-1">
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-6">
+              <h3 className="text-2xl font-semibold mb-6">
                 Connect With Me
               </h3>
               <div className="space-y-4">
