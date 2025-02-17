@@ -12,6 +12,10 @@ const transition = {
   restDelta: 0.001,
   restSpeed: 0.001,
 };
+interface HoveredLinkInterface {
+    href: string,
+    children: React.ReactNode;
+}
 
 export const MenuItem = ({
   setActive,
@@ -109,7 +113,7 @@ export const ProductItem = ({
   );
 };
 
-export const HoveredLink = ({ children, ...rest }: any) => {
+export const HoveredLink = ({ children, ...rest }: HoveredLinkInterface) => {
   return (
     <Link
       {...rest}
