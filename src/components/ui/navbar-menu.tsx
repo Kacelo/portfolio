@@ -119,3 +119,12 @@ export const HoveredLink = ({ children, ...rest }: any) => {
     </Link>
   );
 };
+
+export const ContactLink = () => {
+  return (
+    <div className="relative mt-[5px]">
+      <Link href={"#contact"}>Contact</Link>
+    </div>
+  );
+};
+

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import {
+    ContactLink,
   HoveredLink,
   Menu,
   MenuItem,
@@ -8,6 +9,7 @@ import {
 } from "@/components/ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import { ModeToggle } from "@/components/theme-provider/mode-toggle";
+import Link from "next/link";
 
 export function NavBar() {
   return (
@@ -63,14 +65,8 @@ function Navbar({ className }: { className?: string }) {
             />
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Contact">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
-        </MenuItem>
+
+        <ContactLink />
         {/* <div className="flex flex-col space-y-4 text-sm"> */}
           <ModeToggle></ModeToggle>
         {/* </div> */}
