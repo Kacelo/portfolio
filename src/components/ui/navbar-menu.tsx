@@ -128,3 +128,19 @@ export const ContactLink = () => {
   );
 };
 
+export const DownloadResume = () => {
+  return (
+
+      <a
+        href={
+          "https://github.com/Kacelo/portfolio/blob/main/public/VKaceloCV.pdf"
+        }
+        id="resume"
+        target="_blank"
+        className="px-5 py-3 m: px-1 py-1 bg-blue-600 text-white rounded-full text-sm"
+        download
+      >
+        Download Resume
+      </a>
+  );
+};

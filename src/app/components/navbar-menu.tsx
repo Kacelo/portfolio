@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import {
     ContactLink,
+  DownloadResume,
   HoveredLink,
   Menu,
   MenuItem,
@@ -41,21 +42,21 @@ function Navbar({ className }: { className?: string }) {
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="Shenatungo"
-              href="https://algochurn.com"
+              href="hhttps://shenatungo.com"
               src="shenatungo.png"
-              description="Prepare for tech interviews like never before."
+              description="A Salon Website built with NextJs and hosted on Vercel"
             />
             <ProductItem
               title="Shiftspace Finance"
-              href="https://tailwindmasterkit.com"
+              href="https://shiftfinance.m1.com.na"
               src="shift.png"
-              description="Production ready Tailwind css components for your next project"
+              description="ShiftSpace Finance is a 100% Namibian corporation."
             />
             <ProductItem
               title="Hovia Consulting"
-              href="https://gomoonbeam.com"
+              href="https://hoviaconsulting.com.na/"
               src="Hovia.png"
-              description="Never write from scratch again. Go from idea to blog in minutes."
+              description="Hovia is a consulting firm that focuses on training, management and career consulting services."
             />
             <ProductItem
               title="Rogue"
@@ -67,6 +68,7 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
 
         <ContactLink />
+        <DownloadResume />
         {/* <div className="flex flex-col space-y-4 text-sm"> */}
           <ModeToggle></ModeToggle>
         {/* </div> */}
