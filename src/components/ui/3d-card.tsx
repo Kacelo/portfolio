@@ -123,7 +123,7 @@ export const CardItem = ({
 
   useEffect(() => {
     handleAnimations();
-  }, [isMouseEntered]);
+  }, [isMouseEntered, handleAnimations]);
 
   function handleAnimations() {
     if (!ref.current) return;
